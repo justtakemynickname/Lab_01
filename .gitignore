@@ -1,0 +1,6 @@
+# Создать файл .gitignore и добавить правило для игнорирования скомпилированных файлов .class
+echo "*.class" >> .gitignore
+
+# Добавить другие общие правила, если вы используете IDE
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore
